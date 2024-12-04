@@ -22,7 +22,7 @@ const Privatepool = () => {
 </button>
         </nav>
       </div>
-<div className='md:mt-16 mt-5 px-5'>
+<div className='md:mt-16 mt-5 md:px-5 px-2'>
     <p className='md:text-4xl text-2xl font-bold lllk text-center'>Private Pool Contribution</p>
     <p className='mt-2 md:text-base text-sm'>All holders of our previous tokens are expected to participate in the private pool for our new token launch. 
       <br className='md:block hidden'/>  Your contributions will help boost liquidity (LP) for the new tokens, ensuring a strong start for the project and profit to all investors.</p>
