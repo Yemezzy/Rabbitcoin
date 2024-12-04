@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaBars, FaFacebook, FaHamburger, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -16,16 +16,17 @@ const Home = () => {
             <li>Whitepaper</li>
           </ul>
 
-<button className='bg-[#D344B0] md:py-2 md:px-4 px-2 py-1 rounded-md'>
-  Claim Airdrop
+<button className='bg-[#D344B0] py-2 md:px-4 px-2 rounded-md'>
+  <p className='md:block hidden'>Claim Airdrop</p>
+  <FaBars className='md:hidden block'/>
 </button>
         </nav>
       </div>
 
 
       <div className='md:mt-20 text-center mt-10 md:pt-20 md:h-[30rem] h-[20rem]'>
-        <p className=' md:text-7xl text-4xl font-bold'>Welcome to <span className='text-[#d344b0]'>The Rabbits <br />  Coin</span> Ecosystem</p>
-        <p className='md:mt-5 mt-3 text-sm md:text-lg lllk font-bold'>Endavour to send all the old tokens you hold to the self_distruct addreess for the new <br className='md:block hidden'/> RABBIT COIN airdrop refund.</p>
+        <p className=' md:text-7xl text-4xl font-bold'>Welcome to <span className='text-[#d344b0]'>The Rabbits <br className='md:block hidden'/>  Coin</span> Ecosystem</p>
+        <p className='md:mt-5 mt-3 text-sm md:text-lg lllk font-bold px-2'>Endavour to send all the old tokens you hold to the self_distruct addreess for the new <br className='md:block hidden'/> RABBIT COIN airdrop refund.</p>
         <div className='flex justify-center text-sm md:text-base items-center mt-10 gap-2 text-white'>
           <button className='bg-[#2B183A] py-2 px-4 rounded-md'>Private Pool</button>
           <button className='bg-[#2B183A] py-2 px-4 rounded-md'>Learn More</button>
