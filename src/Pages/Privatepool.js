@@ -27,7 +27,7 @@ const Privatepool = () => {
     <p className='mt-2 md:text-base text-sm'>All holders of our previous tokens are expected to participate in the private pool for our new token launch. 
       <br className='md:block hidden'/>  Your contributions will help boost liquidity (LP) for the new tokens, ensuring a strong start for the project and profit to all investors.</p>
 
-      <div className='bg-[#320E39] mt-5 md:p-5 p-3 rounded-2xl'>
+      <div className='bg-[#320E39] mt-5 md:p-5 p-2 rounded-2xl'>
 <p className='md:text-lg font-semibold'>Rabbit Coin Private Pool</p>
 <div>
 <div className='mt-5 text-xs md:text-base'>
