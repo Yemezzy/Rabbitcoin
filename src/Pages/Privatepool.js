@@ -30,8 +30,8 @@ const Privatepool = () => {
       <div className='bg-[#320E39] mt-5 md:p-5 p-3 rounded-2xl'>
 <p className='md:text-lg font-semibold'>Rabbit Coin Private Pool</p>
 <div>
-<div className='mt-5 text-sm md:text-base'>
-  <p className='mt-1 font-bold  text-[#d344b0]'>Status: <span className='font-medium text-white'>Live</span></p>
+<div className='mt-5 text-xs md:text-base'>
+  <p className='mt-1 font-bold  text-[#d344b0] mt-2'>Status: <span className='font-medium text-white'>Live</span></p>
   <p className='mt-1 font-bold  text-[#d344b0]'>Target: <span className='font-medium text-white'>$155,000</span></p>
   <p className='mt-1 font-bold  text-[#d344b0]'>Current raised: <span className='font-medium text-white'>$78,872</span></p>
   <p className='mt-1 font-bold  text-[#d344b0]'>Total contributors:  <span className='font-medium text-white'>31</span></p>
