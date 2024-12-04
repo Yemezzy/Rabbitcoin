@@ -1,10 +1,12 @@
   import './App.css';
 import Home from './Pages/Home';
+import Privatepool from './Pages/Privatepool';
 
 function App() {
   return (
     <div className="App">
-    <Home/>
+    {/* <Home/> */}
+    <Privatepool/>
     </div>
   );
 }
