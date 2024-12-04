@@ -5,7 +5,7 @@ const Privatepool = () => {
   return (
     <div className='bg-[#1D0729] text-white'>
          <div className='p-3 '>
-        <nav className='flex justify-between rounded-full text-white p-5 md:px-10 items-center bg-[#2A0C3B]'>
+        <nav className='flex justify-between rounded-full text-white p-3 px-5 mdpx-0 md:px-10 items-center bg-[#2A0C3B]'>
           <img src="https://nftswapstack.netlify.app/static/media/logo.3a5ddf90d6e3930972be.jfif" alt="" className='md:w-14 w-10 h-10 md:h-14 rounded-full'/>
 
           <ul className='md:flex hidden gap-5  text-lg font-semibold'>
