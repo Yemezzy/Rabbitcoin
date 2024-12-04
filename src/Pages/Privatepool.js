@@ -32,26 +32,26 @@ const Privatepool = () => {
 <div>
 <div className='mt-5 text-sm md:text-base'>
   <p className='mt-1 font-bold  text-[#d344b0]'>Status: <span className='font-medium text-white'>Live</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>Target: <span className='font-medium text-white'>$45,000</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>Current raised: <span className='font-medium text-white'>$21,872</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>Target: <span className='font-medium text-white'>$155,000</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>Current raised: <span className='font-medium text-white'>$78,872</span></p>
   <p className='mt-1 font-bold  text-[#d344b0]'>Total contributors:  <span className='font-medium text-white'>31</span></p>
   <section className='md:w-[50%] h-[1rem] bg-[#A1DFB6] md:mt-5 mt-3 rounded-full'>
     <section className='w-[51%] h-full bg-[#48C774] rounded-full'>
 
     </section>
     <div className='w-full text-xs mt-1 flex justify-between items-center'>
-        <p>$21,800</p>
-        <p>$45,000</p>
+        <p>$78,872</p>
+        <p>$155,000</p>
     </div>
   </section>
 
-  <div className='mt-5 text-sm md:text-base'>
+  <div className='md:mt-5 mt-10 text-sm md:text-base'>
 <p className='pt-5 md:text-lg text-base font-semibold'>Contribution Address:</p>
-<p className='mt-1 font-bold  text-[#d344b0]'>ETH: <span className='font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>SOLANA: <span className='font-medium text-white'>4tp1W6zFJQYviLYxyuLND3kcmtzHqs75J3kVdZhG9iqr</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>BNB: <span className='font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (trc20):  <span className='font-medium text-white'>TFoDYGEHKrMW4S8hXoZT8rp9YXbGTxUEez</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (bep20):  <span className='font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
+<p className='mt-1 font-bold  text-[#d344b0]'>ETH: <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>SOLANA: <span className='md:font-medium text-white'>4tp1W6zFJQYviLYxyuLND3kcmtzHqs75J3kVdZhG9iqr</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>BNB: <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (trc20):  <span className='md:font-medium text-white'>TFoDYGEHKrMW4S8hXoZT8rp9YXbGTxUEez</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (bep20):  <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
   <p className='mt-5 text-sm'>Envavour to copy the right address to prevent loss of funds.</p>
   </div>
 </div>
