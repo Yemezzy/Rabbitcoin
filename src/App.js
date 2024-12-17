@@ -5,8 +5,8 @@ import Privatepool from './Pages/Privatepool';
 function App() {
   return (
     <div className="App">
-    {/* <Home/> */}
-    <Privatepool/>
+    <Home/>
+    {/* <Privatepool/> */}
     </div>
   );
 }
