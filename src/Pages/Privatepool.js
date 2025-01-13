@@ -47,11 +47,11 @@ const Privatepool = () => {
 
   <div className='md:mt-5 mt-10 text-sm md:text-base'>
 <p className='pt-5 md:text-lg text-base font-semibold'>Contribution Address:</p>
-<p className='mt-1 font-bold  text-[#d344b0]'>ETH: <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>SOLANA: <span className='md:font-medium text-white'>4tp1W6zFJQYviLYxyuLND3kcmtzHqs75J3kVdZhG9iqr</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>BNB: <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (trc20):  <span className='md:font-medium text-white'>TFoDYGEHKrMW4S8hXoZT8rp9YXbGTxUEez</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (bep20):  <span className='md:font-medium text-white'>0x80f832c6eb2deef68d95915f7429ed8ae2a9659c</span></p>
+<p className='mt-1 font-bold  text-[#d344b0]'>ETH: <span className='md:font-medium text-white'>0xe09250d291bc3893116e0d04efc8b02eae163423</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>SOLANA: <span className='md:font-medium text-white'>62t71UMj2u1t9NGQtTyuBCgrmTiuSdgJaZHLoqa1wERE</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>BNB: <span className='md:font-medium text-white'>0x1375352c3ee3b70f6b7ff77c7efa14fd32c3c528</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (trc20):  <span className='md:font-medium text-white'>TG41oBqDgkqeTLiDA8KdG1nJt65SymB3mV</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>USDT (bep20):  <span className='md:font-medium text-white'>0x1375352c3ee3b70f6b7ff77c7efa14fd32c3c528</span></p>
   <p className='mt-5 text-sm'>Envavour to copy the right address to prevent loss of funds.</p>
   </div>
 </div>
