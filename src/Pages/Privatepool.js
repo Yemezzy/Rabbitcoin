@@ -35,14 +35,14 @@ const Privatepool = () => {
 <div className='mt-5 text-xs md:text-base'>
   <p className='mt-1 font-bold  text-[#d344b0] mt-2'>Status: <span className='font-medium text-white'>Live</span></p>
   <p className='mt-1 font-bold  text-[#d344b0]'>Target: <span className='font-medium text-white'>$155,000</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>Current raised: <span className='font-medium text-white'>$85,872</span></p>
-  <p className='mt-1 font-bold  text-[#d344b0]'>Total contributors:  <span className='font-medium text-white'>31</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>Current raised: <span className='font-medium text-white'>$87,272</span></p>
+  <p className='mt-1 font-bold  text-[#d344b0]'>Total contributors:  <span className='font-medium text-white'>32</span></p>
   <section className='md:w-[50%] h-[1rem] bg-[#A1DFB6] md:mt-5 mt-3 rounded-full'>
     <section className='w-[61%] h-full bg-[#48C774] rounded-full'>
 
     </section>
     <div className='w-full text-xs mt-1 flex justify-between items-center'>
-        <p>$85,872</p>
+        <p>$87,272</p>
         <p>$155,000</p>
     </div>
   </section>
