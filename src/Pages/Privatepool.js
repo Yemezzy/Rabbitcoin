@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars, FaFacebook, FaTelegram, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router'
 
 const Privatepool = () => {
   return (
@@ -8,14 +9,15 @@ const Privatepool = () => {
         <nav className='flex justify-between rounded-full text-white p-3 px-5 mdpx-0 md:px-10 items-center bg-[#2A0C3B]'>
           <img src="https://nftswapstack.netlify.app/static/media/logo.3a5ddf90d6e3930972be.jfif" alt="" className='md:w-14 w-10 h-10 md:h-14 rounded-full'/>
 
-          <ul className='md:flex hidden gap-5  text-lg font-semibold'>
+          <Link to="/">
+        <ul className='md:flex hidden gap-5  text-lg font-semibold'>
             <li>Home</li>
             <li>About</li>
             <li>Roadmap</li>
             <li>Tokenomic</li>
             <li>Whitepaper</li>
           </ul>
-
+        </Link>
 <button className='bg-[#D344B0] py-2 md:px-4 px-2 rounded-md'>
   <p className='md:block hidden'>Claim Airdrop</p>
   <FaBars className='md:hidden block'/>

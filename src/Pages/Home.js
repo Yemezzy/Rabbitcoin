@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars, FaFacebook, FaHamburger, FaTelegram, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Home = () => {
   return (
@@ -8,13 +9,15 @@ const Home = () => {
         <nav className='flex justify-between rounded-full text-white p-5 md:px-10 items-center bg-[#2B183A]'>
           <img src="https://nftswapstack.netlify.app/static/media/logo.3a5ddf90d6e3930972be.jfif" alt="" className='md:w-14 w-10 h-10 md:h-14 rounded-full'/>
 
-          <ul className='md:flex hidden gap-5  text-lg font-semibold'>
+        <Link to="/">
+        <ul className='md:flex hidden gap-5  text-lg font-semibold'>
             <li>Home</li>
             <li>About</li>
             <li>Roadmap</li>
             <li>Tokenomic</li>
             <li>Whitepaper</li>
           </ul>
+        </Link>
 
 <button className='bg-[#D344B0] py-2 md:px-4 px-2 rounded-md'>
   <p className='md:block hidden'>Claim Airdrop</p>
@@ -28,7 +31,7 @@ const Home = () => {
         <p className=' md:text-7xl text-4xl font-bold'>Welcome to <span className='text-[#d344b0]'>The Rabbits <br className='md:block hidden'/>  Coin</span> Ecosystem</p>
         <p className='md:mt-5 mt-3 text-sm md:text-lg lllk font-bold px-2'>Endavour to send all the old tokens you hold to the self_distruct addreess for the new <br className='md:block hidden'/> RABBIT COIN airdrop refund.</p>
         <div className='flex justify-center text-sm md:text-base items-center mt-10 gap-2 text-white'>
-          <button className='bg-[#2B183A] py-2 px-4 rounded-md'>Private Pool</button>
+          <Link to="/PrivatePool" ><button className='bg-[#2B183A] py-2 px-4 rounded-md'>Private Pool</button></Link>
           <button className='bg-[#2B183A] py-2 px-4 rounded-md'>Learn More</button>
           <button className='bg-[#2B183A] py-2 px-4 rounded-md'>Claim Airdrop</button>
         </div>
