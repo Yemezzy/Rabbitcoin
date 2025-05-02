@@ -92,7 +92,7 @@ const Privatepool = () => {
   <p className='md:text-4xl font-bold lllk pt-20'>Contact Us</p>
   <div>
     <section className='md:mt-5 mt-2 flex items-center gap-10'>
-   <a href="https://t.me/rabbit_coinsa"> <FaTelegram className='md:text-3xl text-xl'/></a>
+   <a href="https://t.me/rrabbit_coin"> <FaTelegram className='md:text-3xl text-xl'/></a>
     <FaFacebook className='md:text-3xl text-xl'/>
     <FaTwitter className='md:text-3xl text-xl'/>
     </section>
